@@ -42,14 +42,12 @@ function App() {
       </main>
 
       {/* App Footer */}
-      <footer className="app-footer">
-        <p>
-          Quickdraw Royale ⚡ Real-Time Pictionary Multiplayer Game • Powered by Socket.io & React • View on{" "}
-          <a href="https://github.com/broehit/quickdraw-royale" target="_blank" rel="noreferrer">
-            GitHub Repository
-          </a>
-        </p>
-      </footer>
+    <footer className="app-footer">
+  <p>
+    Quickdraw Royale ⚡ Real-Time Pictionary Multiplayer Game •{" "}
+    • Made with ❤️ by <strong>Rohit Manal</strong>
+  </p>
+</footer>
     </div>
   );
 }
