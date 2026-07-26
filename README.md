@@ -1,8 +1,6 @@
 # 🎨 Quickdraw Royale ⚡
 
 [![Live Web Application](https://img.shields.io/badge/🌐_LIVE_APP-Open_Quickdraw_Royale-6366F1?style=for-the-badge&logo=githubpages&logoColor=white)](https://broehit.github.io/quickdraw-royale/)
-[![GitHub Repository](https://img.shields.io/badge/GitHub-broehit%2Fquickdraw--royale-181717?style=for-the-badge&logo=github)](https://github.com/broehit/quickdraw-royale)
-[![React](https://img.shields.io/badge/React-19.0-61DAFB?style=for-the-badge&logo=react)](https://react.dev/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.7-3178C6?style=for-the-badge&logo=typescript)](https://www.typescriptlang.org/)
 [![Vite](https://img.shields.io/badge/Vite-6.0-646CFF?style=for-the-badge&logo=vite)](https://vitejs.dev/)
 [![Socket.io](https://img.shields.io/badge/Socket.io-4.8-010101?style=for-the-badge&logo=socket.io)](https://socket.io/)
