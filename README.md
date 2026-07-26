@@ -1,15 +1,23 @@
 # 🎨 Quickdraw Royale ⚡
 
+[![Live Web Application](https://img.shields.io/badge/🌐_LIVE_APP-Open_Quickdraw_Royale-6366F1?style=for-the-badge&logo=githubpages&logoColor=white)](https://broehit.github.io/quickdraw-royale/)
 [![GitHub Repository](https://img.shields.io/badge/GitHub-broehit%2Fquickdraw--royale-181717?style=for-the-badge&logo=github)](https://github.com/broehit/quickdraw-royale)
 [![React](https://img.shields.io/badge/React-19.0-61DAFB?style=for-the-badge&logo=react)](https://react.dev/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.7-3178C6?style=for-the-badge&logo=typescript)](https://www.typescriptlang.org/)
 [![Vite](https://img.shields.io/badge/Vite-6.0-646CFF?style=for-the-badge&logo=vite)](https://vitejs.dev/)
 [![Socket.io](https://img.shields.io/badge/Socket.io-4.8-010101?style=for-the-badge&logo=socket.io)](https://socket.io/)
-[![Express](https://img.shields.io/badge/Express-4.21-000000?style=for-the-badge&logo=express)](https://expressjs.com/)
 
-**Quickdraw Royale** is a fast-paced, real-time multiplayer Pictionary & drawing game built with React 19, TypeScript, Socket.io, and Express. Players join lobbies, receive random drawing prompts, draw collaboratively or competitively on an interactive canvas, and guess each other's drawings in a live real-time chat feed.
+> 🚀 **LIVE PROJECT LINK**:  
+> ### 👉 **[https://broehit.github.io/quickdraw-royale/](https://broehit.github.io/quickdraw-royale/)** 👈
 
-🔗 **Repository Link**: [https://github.com/broehit/quickdraw-royale](https://github.com/broehit/quickdraw-royale)
+**Quickdraw Royale** is a fast-paced, real-time multiplayer Pictionary & drawing game built with React 19, TypeScript, Socket.io, and Express. Players join lobbies, receive random secret drawing prompts, draw collaboratively on an interactive glassmorphic canvas, and guess each other's drawings in a live real-time chat feed.
+
+---
+
+## 🌐 Live Demo & Repository Links
+
+- 🌐 **Working Live Application**: [https://broehit.github.io/quickdraw-royale/](https://broehit.github.io/quickdraw-royale/)
+- 💻 **Source Code Repository**: [https://github.com/broehit/quickdraw-royale](https://github.com/broehit/quickdraw-royale)
 
 ---
 
@@ -34,6 +42,7 @@
 ### Frontend (Client)
 - **Framework**: React 19 + TypeScript
 - **Build Tool**: Vite 6
+- **Deployment**: GitHub Pages
 - **Routing**: React Router DOM v7
 - **Styling**: Vanilla CSS (Custom Design System, Glassmorphism, Google Fonts `Outfit` & `Inter`)
 - **Real-Time**: Socket.io Client
@@ -46,7 +55,7 @@
 
 ---
 
-## 🚀 Getting Started
+## 🚀 Getting Started Locally
 
 ### Prerequisites
 
@@ -78,30 +87,6 @@ npm install
 npm run dev
 ```
 Open `http://localhost:5173` in your browser.
-
----
-
-## 📂 Project Structure
-
-```text
-quickdraw-royale/
-├── apps/
-│   └── server/
-│       ├── client/              # React + Vite Frontend Application
-│       │   ├── public/          # Static Assets
-│       │   └── src/
-│       │       ├── components/  # React UI Components (Canvas, Controls)
-│       │       ├── pages/       # Route Views (Home, Lobby, Game)
-│       │       ├── App.tsx      # Main Layout & Navigation
-│       │       └── index.css    # Global Modern Design System & CSS Variables
-│       └── src/                 # Express & Socket.io Backend API
-│           ├── config/          # DB & Server Config
-│           ├── controllers/     # API Controllers
-│           ├── routes/          # Auth & API Routes
-│           └── index.ts         # Main Entrypoint & Socket Event Handlers
-├── package.json
-└── README.md
-```
 
 ---
 
