@@ -44,7 +44,6 @@ function App() {
       {/* App Footer */}
     <footer className="app-footer">
   <p>
-    Quickdraw Royale ⚡ Real-Time Pictionary Multiplayer Game •{" "}
     • Made with ❤️ by <strong>Rohit Manal</strong>
   </p>
 </footer>
